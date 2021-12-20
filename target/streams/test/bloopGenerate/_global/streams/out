@@ -1,0 +1,4 @@
+[debug] [lnsparkch4-test] Classpath dependencies List()
+[debug] [lnsparkch4-test] Dependencies from configurations List(lnsparkch4)
+[debug] Bloop wrote the configuration of project 'lnsparkch4-test' to '/home/han/LNSparkCh4/.bloop/lnsparkch4-test.json'
+[success] Generated .bloop/lnsparkch4-test.json

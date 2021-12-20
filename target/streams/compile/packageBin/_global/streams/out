@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/lnsparkch4-0.0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	flightdelay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/classes/flightdelay.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	flightdelay$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/classes/flightdelay$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	flightScheme.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/classes/flightScheme.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	flightScheme$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/classes/flightScheme$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	flightdelay$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/han/LNSparkCh4/target/scala-2.12/sbt-1.0/classes/flightdelay$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

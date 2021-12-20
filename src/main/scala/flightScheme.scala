@@ -1,0 +1,1 @@
+case class flightScheme(date :String, delay: Int, distance: Int, origin: String, destination: String)
