@@ -2110,3 +2110,420 @@ Dec 21, 2021 8:30:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 5491
 Dec 21, 2021 9:29:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Dec 21, 2021 9:40:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.12.21 21:45:43 INFO  Started: Metals version 0.10.9 in workspace '/home/han/LNSparkCh4' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.21 21:45:43 INFO  time: initialize in 0.49s[0m
+[0m2021.12.21 21:45:44 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5977367743810844983/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.12.21 21:45:44 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5977367743810844983/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5977367743810844983/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.21 21:45:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/han/.cache/metals/bsp.trace.json[0m
+[0m2021.12.21 21:45:44 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7979077190086036514/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7979077190086036514/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7979077190086036514/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.21 21:45:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/han/.cache/metals/bsp.trace.json[0m
+[0m2021.12.21 21:45:44 INFO  time: Connected to build server in 0.5s[0m
+[0m2021.12.21 21:45:44 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.12.21 21:45:46 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.12.21 21:45:46 INFO  time: indexed workspace in 1.64s[0m
+[0m2021.12.21 21:45:47 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.12.21 21:49:10 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:49:10 INFO  time: compiled lnsparkch4 in 0.14s[0m
+Dec 21, 2021 9:49:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+Dec 21, 2021 9:49:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 220
+Dec 21, 2021 9:49:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+[0m2021.12.21 21:50:26 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:50:26 INFO  time: compiled lnsparkch4 in 0.12s[0m
+[0m2021.12.21 21:50:38 INFO  shutting down Metals[0m
+[0m2021.12.21 21:50:38 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...[0m
+2021.12.21 21:50:38 INFO  No more data in the server stdin, exiting...Shut down connection with build server.[0m
+
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.21 21:50:44 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:50:44 INFO  time: compiled lnsparkch4 in 91ms[0m
+[0m2021.12.21 21:51:18 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:51:18 INFO  time: compiled lnsparkch4 in 96ms[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:72: stale bloop error: ')' expected but '(' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                       ^[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:87: stale bloop error: ';' expected but ')' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                                      ^[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:72: stale bloop error: ')' expected but '(' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                       ^[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:87: stale bloop error: ';' expected but ')' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                                      ^[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:72: stale bloop error: ')' expected but '(' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                       ^[0m
+[0m2021.12.21 21:51:24 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:87: stale bloop error: ';' expected but ')' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                                      ^[0m
+[0m2021.12.21 21:51:25 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:72: stale bloop error: ')' expected but '(' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                       ^[0m
+[0m2021.12.21 21:51:25 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:75:87: stale bloop error: ';' expected but ')' found.
+  val parsedatafunc2 = udf ((date:String): DateType => SimpleDateFormat("MM-dd hh:ss"))
+                                                                                      ^[0m
+[0m2021.12.21 21:51:27 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:51:27 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 21:51:36 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:51:36 INFO  time: compiled lnsparkch4 in 86ms[0m
+[0m2021.12.21 21:51:53 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:51:53 INFO  time: compiled lnsparkch4 in 0.13s[0m
+Dec 21, 2021 9:52:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 505
+[0m2021.12.21 21:55:25 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:55:25 INFO  time: compiled lnsparkch4 in 99ms[0m
+[0m2021.12.21 21:56:23 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:56:23 INFO  time: compiled lnsparkch4 in 0.12s[0m
+[0m2021.12.21 21:56:36 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:56:36 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 21:57:12 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:57:12 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 21:58:47 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:58:47 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 21:59:54 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 21:59:54 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:00:19 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:00:19 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:00:22 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:00:22 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:01:18 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:01:18 INFO  time: compiled lnsparkch4 in 88ms[0m
+[0m2021.12.21 22:01:39 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:01:39 INFO  time: compiled lnsparkch4 in 85ms[0m
+[0m2021.12.21 22:01:53 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:01:53 INFO  time: compiled lnsparkch4 in 98ms[0m
+[0m2021.12.21 22:02:47 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:02:47 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:02:56 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:02:56 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:03:19 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:03:19 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:03:20 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:03:20 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:03:52 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:03:52 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:03:55 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:03:55 INFO  time: compiled lnsparkch4 in 92ms[0m
+[0m2021.12.21 22:04:05 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:05 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:04:32 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:32 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:04:37 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:37 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:04:38 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:38 INFO  time: compiled lnsparkch4 in 0.12s[0m
+[0m2021.12.21 22:04:42 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:42 INFO  time: compiled lnsparkch4 in 89ms[0m
+[0m2021.12.21 22:04:44 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:44 INFO  time: compiled lnsparkch4 in 88ms[0m
+[0m2021.12.21 22:04:46 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:46 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:04:53 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:04:53 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:05:12 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:05:12 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:05:26 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:05:26 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 22:06:09 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:06:09 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 22:07:09 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:07:09 INFO  time: compiled lnsparkch4 in 0.15s[0m
+[0m2021.12.21 22:07:17 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:07:17 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:07:25 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:07:25 INFO  time: compiled lnsparkch4 in 0.12s[0m
+[0m2021.12.21 22:07:26 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:07:26 INFO  time: compiled lnsparkch4 in 0.11s[0m
+[0m2021.12.21 22:07:37 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:07:37 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 22:08:15 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:08:15 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 22:12:07 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:12:07 INFO  time: compiled lnsparkch4 in 0.75s[0m
+[0m2021.12.21 22:13:41 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:13:41 INFO  time: compiled lnsparkch4 in 0.71s[0m
+[0m2021.12.21 22:14:09 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:14:09 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 22:14:15 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:14:15 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 22:14:48 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:14:48 INFO  time: compiled lnsparkch4 in 0.71s[0m
+[0m2021.12.21 22:15:12 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:15:12 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:115: stale bloop error: unclosed string literal
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                                  ^[0m
+[0m2021.12.21 22:15:12 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:115: stale bloop error: unclosed string literal
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                                  ^[0m
+[0m2021.12.21 22:15:12 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:98: stale bloop error: identifier expected but string literal found.
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                 ^[0m
+[0m2021.12.21 22:15:12 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:137:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 22:15:12 INFO  time: compiled lnsparkch4 in 98ms[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:115: stale bloop error: unclosed string literal
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                                  ^[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:98: stale bloop error: identifier expected but string literal found.
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                 ^[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:137:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:115: stale bloop error: unclosed string literal
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                                  ^[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:100:98: stale bloop error: identifier expected but string literal found.
+  val formatDate = datetype2.select(col("parseddate2"),from_unixtime(col("parseddate2),"MM-dd hh:mm").as("newdate"))
+                                                                                                 ^[0m
+[0m2021.12.21 22:15:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:137:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 22:15:13 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:15:13 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:15:46 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:15:46 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 22:16:34 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:16:34 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 22:16:56 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:16:56 INFO  time: compiled lnsparkch4 in 96ms[0m
+[0m2021.12.21 22:17:10 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:17:10 INFO  time: compiled lnsparkch4 in 86ms[0m
+[0m2021.12.21 22:17:18 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:17:18 INFO  time: compiled lnsparkch4 in 87ms[0m
+[0m2021.12.21 22:17:20 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:17:20 INFO  time: compiled lnsparkch4 in 94ms[0m
+[0m2021.12.21 22:17:23 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:17:23 INFO  time: compiled lnsparkch4 in 85ms[0m
+[0m2021.12.21 22:17:29 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:17:29 INFO  time: compiled lnsparkch4 in 94ms[0m
+Dec 21, 2021 10:17:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2632
+[0m2021.12.21 22:19:54 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:19:54 INFO  time: compiled lnsparkch4 in 0.71s[0m
+[0m2021.12.21 22:20:06 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:20:06 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 22:20:25 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:20:25 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 22:20:33 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:20:33 INFO  time: compiled lnsparkch4 in 0.69s[0m
+[0m2021.12.21 22:21:00 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:21:00 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 22:21:28 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:21:28 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:21:57 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:21:57 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:22:19 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:22:19 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:22:48 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:22:48 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:23:39 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:23:39 INFO  time: compiled lnsparkch4 in 0.75s[0m
+[0m2021.12.21 22:23:56 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:23:56 INFO  time: compiled lnsparkch4 in 0.75s[0m
+[0m2021.12.21 22:24:16 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:24:16 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 22:24:48 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:24:48 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:25:11 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:25:11 INFO  time: compiled lnsparkch4 in 0.75s[0m
+[0m2021.12.21 22:25:34 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:25:34 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:26:07 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:26:07 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:26:44 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:26:44 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:29:29 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:29:29 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 22:29:43 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:29:43 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:29:52 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:29:52 INFO  time: compiled lnsparkch4 in 0.14s[0m
+[0m2021.12.21 22:30:04 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:30:04 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:30:20 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:30:20 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:32:16 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:32:16 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 22:32:29 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:32:29 INFO  time: compiled lnsparkch4 in 0.77s[0m
+[0m2021.12.21 22:33:08 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:33:08 INFO  time: compiled lnsparkch4 in 0.77s[0m
+[0m2021.12.21 22:34:01 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:34:01 INFO  time: compiled lnsparkch4 in 0.12s[0m
+[0m2021.12.21 22:34:17 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:34:17 INFO  time: compiled lnsparkch4 in 0.79s[0m
+[0m2021.12.21 22:34:47 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:34:47 INFO  time: compiled lnsparkch4 in 0.78s[0m
+[0m2021.12.21 22:35:07 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:35:07 INFO  time: compiled lnsparkch4 in 0.83s[0m
+[0m2021.12.21 22:35:57 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:35:58 INFO  time: compiled lnsparkch4 in 1.15s[0m
+Dec 21, 2021 10:37:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4190
+[0m2021.12.21 22:44:24 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:44:26 INFO  time: compiled lnsparkch4 in 1.86s[0m
+[0m2021.12.21 22:45:19 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 22:45:19 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 23:02:08 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:02:08 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 23:02:37 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:02:37 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 23:03:36 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:03:36 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 23:03:59 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:03:59 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 23:04:07 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:04:07 INFO  time: compiled lnsparkch4 in 0.69s[0m
+[0m2021.12.21 23:05:20 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:05:20 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 23:06:40 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:06:40 INFO  time: compiled lnsparkch4 in 0.67s[0m
+[0m2021.12.21 23:09:58 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:09:58 INFO  time: compiled lnsparkch4 in 0.69s[0m
+Dec 21, 2021 11:10:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5079
+[0m2021.12.21 23:11:52 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:11:52 INFO  time: compiled lnsparkch4 in 0.66s[0m
+[0m2021.12.21 23:12:31 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:12:31 INFO  time: compiled lnsparkch4 in 0.66s[0m
+Dec 21, 2021 11:15:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5246
+[0m2021.12.21 23:15:31 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:15:31 INFO  time: compiled lnsparkch4 in 0.67s[0m
+[0m2021.12.21 23:16:13 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:16:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:35: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:)
+                                  ^[0m
+[0m2021.12.21 23:16:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:35: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:)
+                                  ^[0m
+[0m2021.12.21 23:16:13 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:142:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 23:16:13 INFO  time: compiled lnsparkch4 in 92ms[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:35: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:)
+                                  ^[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:142:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:35: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:)
+                                  ^[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:142:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:35: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:)
+                                  ^[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:142:1: stale bloop error: ')' expected but '}' found.
+}
+^[0m
+[0m2021.12.21 23:16:16 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:16:16 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:49: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:"")
+                                                ^[0m
+[0m2021.12.21 23:16:16 INFO  time: compiled lnsparkch4 in 95ms[0m
+[0m2021.12.21 23:16:17 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:49: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:"")
+                                                ^[0m
+[0m2021.12.21 23:16:17 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:72:49: stale bloop error: unclosed string literal
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm:"")
+                                                ^[0m
+[0m2021.12.21 23:16:17 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:16:17 INFO  time: compiled lnsparkch4 in 0.71s[0m
+[0m2021.12.21 23:17:01 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:17:01 INFO  time: compiled lnsparkch4 in 0.7s[0m
+[0m2021.12.21 23:17:20 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:17:20 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 23:17:32 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:17:32 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 23:18:35 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:18:35 INFO  time: compiled lnsparkch4 in 0.69s[0m
+[0m2021.12.21 23:19:17 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:19:17 INFO  time: compiled lnsparkch4 in 0.71s[0m
+[0m2021.12.21 23:19:29 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:19:29 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 23:20:30 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:20:30 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 23:21:52 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:21:52 INFO  time: compiled lnsparkch4 in 0.13s[0m
+[0m2021.12.21 23:22:02 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:98:21: stale bloop error: overloaded method value select with alternatives:
+  [U1, U2](c1: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U1], c2: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U2])org.apache.spark.sql.Dataset[(U1, U2)] <and>
+  (col: String,cols: String*)org.apache.spark.sql.DataFrame <and>
+  (cols: org.apache.spark.sql.Column*)org.apache.spark.sql.DataFrame
+ cannot be applied to (String, org.apache.spark.sql.Column)
+  val formattered = parsedate2.select("parsedate3", parsedatafunc2(col("parsedate3")))
+                    ^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.21 23:22:02 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:98:21: stale bloop error: overloaded method value select with alternatives:
+  [U1, U2](c1: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U1], c2: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U2])org.apache.spark.sql.Dataset[(U1, U2)] <and>
+  (col: String,cols: String*)org.apache.spark.sql.DataFrame <and>
+  (cols: org.apache.spark.sql.Column*)org.apache.spark.sql.DataFrame
+ cannot be applied to (String, org.apache.spark.sql.Column)
+  val formattered = parsedate2.select("parsedate3", parsedatafunc2(col("parsedate3")))
+                    ^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.21 23:22:02 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:98:21: stale bloop error: overloaded method value select with alternatives:
+  [U1, U2](c1: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U1], c2: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U2])org.apache.spark.sql.Dataset[(U1, U2)] <and>
+  (col: String,cols: String*)org.apache.spark.sql.DataFrame <and>
+  (cols: org.apache.spark.sql.Column*)org.apache.spark.sql.DataFrame
+ cannot be applied to (String, org.apache.spark.sql.Column)
+  val formattered = parsedate2.select("parsedate3", parsedatafunc2(col("parsedate3")))
+                    ^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.21 23:22:02 INFO  /home/han/LNSparkCh4/src/main/scala/flightdelay.scala:98:21: stale bloop error: overloaded method value select with alternatives:
+  [U1, U2](c1: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U1], c2: org.apache.spark.sql.TypedColumn[org.apache.spark.sql.Row,U2])org.apache.spark.sql.Dataset[(U1, U2)] <and>
+  (col: String,cols: String*)org.apache.spark.sql.DataFrame <and>
+  (cols: org.apache.spark.sql.Column*)org.apache.spark.sql.DataFrame
+ cannot be applied to (String, org.apache.spark.sql.Column)
+  val formattered = parsedate2.select("parsedate3", parsedatafunc2(col("parsedate3")))
+                    ^^^^^^^^^^^^^^^^^[0m
+[0m2021.12.21 23:22:12 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:22:12 INFO  time: compiled lnsparkch4 in 0.1s[0m
+[0m2021.12.21 23:22:14 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:22:14 INFO  time: compiled lnsparkch4 in 83ms[0m
+[0m2021.12.21 23:22:18 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:22:18 INFO  time: compiled lnsparkch4 in 0.72s[0m
+[0m2021.12.21 23:22:25 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:22:25 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 23:24:12 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:24:12 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 23:24:15 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:24:15 INFO  time: compiled lnsparkch4 in 83ms[0m
+[0m2021.12.21 23:24:22 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:24:22 INFO  time: compiled lnsparkch4 in 0.73s[0m
+[0m2021.12.21 23:25:26 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:25:26 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 23:27:47 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:27:47 INFO  time: compiled lnsparkch4 in 0.78s[0m
+[0m2021.12.21 23:28:26 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:28:26 INFO  time: compiled lnsparkch4 in 0.76s[0m
+[0m2021.12.21 23:28:29 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:28:29 INFO  time: compiled lnsparkch4 in 0.74s[0m
+[0m2021.12.21 23:29:08 INFO  compiling lnsparkch4 (1 scala source)[0m
+[0m2021.12.21 23:29:08 INFO  time: compiled lnsparkch4 in 0.75s[0m

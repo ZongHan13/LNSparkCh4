@@ -1,13 +1,15 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{desc,when}
 import org.apache.spark.sql.functions.{col, concat, udf}
-import org.apache.spark.sql.functions.to_date
+import org.apache.spark.sql.functions.{to_date,to_timestamp}
 import org.apache.spark.sql.types.{StringType, LongType}
 import org.apache.spark.sql.functions.{unix_timestamp, from_unixtime,date_format,to_date}
 import org.apache.spark.sql.types.DateType
 import org.apache.spark.sql.DataFrame
 import org.apache.spark.sql.Column
 import java.text.SimpleDateFormat
+import java.lang.annotation.Annotation
+import java.lang.reflect.Type
 import java.sql.Date
 
 object flightdelay extends App {
@@ -67,13 +69,17 @@ object flightdelay extends App {
   //convert.show(10)
   //println(convert.printSchema())
 
-
-  val parsedatefunc = udf{((date: String) => date.substring(0,2)
+  val sdf  = new SimpleDateFormat("MM-dd HH:mm")
+  /*val parsedatefunc = udf{((date: String) => "1993-".concat(date.substring(0,2))
+    .concat("-").concat(date.substring(2,4))
+    .concat(" ").concat(date.substring(4,6))
+    .concat(":").concat(date.substring(6,8)))}*/
+  val parsedatefunc_1_5 = udf{((date: String) => date.substring(0,2)
     .concat("-").concat(date.substring(2,4))
     .concat(" ").concat(date.substring(4,6))
     .concat(":").concat(date.substring(6,8)))}
-  
-   //{date.substring(0,2).concat("-").concat(date.substring(2,4)).concat("-").concat(date.substring(4,6)).concat("-").concat(date.substring(6,8))}
+  val parsedatafunc2 = udf((date: String) => sdf.parse(date).toString())
+    
 
   //val data1 = csvfile.select(col("date"))
   //data1.show(10)
@@ -84,17 +90,27 @@ object flightdelay extends App {
   //
   //val finaldate2 = csvfile.select(parsedatefunc(col("date")).as("parsedDate"))
   //finaldate2.show(10)
-  val parsedate = csvfile.withColumn("parseddate2", parsedatefunc(col("date"))).drop("date")
-  parsedate.show(10)
-  //val datetype1 = parsedate.select(col("parseddate2"), date_format(col("parseddate2"),"MM-dd HH:mm").as("formattedDate").cast(DateType))
-  //datetype1.show(10)
-  //println(datetype1.printSchema())
-  //val datetype2 = parsedate.select(col("parseddate2").cast(DateType))
+  //val parsedate = csvfile.withColumn("parseddate2", parsedatefunc(col("date"))).drop("date")
+  //parsedate.show(10)
+  val parsedate2 = csvfile.withColumn("parsedate3", parsedatefunc_1_5(col("date")))
+  parsedate2.show()
+  println(parsedate2.printSchema())
+  val formattered = parsedate2.select(col("parsedate3"), parsedatafunc2(col("parsedate3")).as("formatter"))
+  formattered.show(10)
+  println(formattered.printSchema())
+  /*val datetype1 = parsedate.select(col("parseddate2"), date_format(col("parseddate2"),"MM-dd HH:mm a").as("formattedDate"))
+  datetype1.show(10)
+  println(datetype1.printSchema())
+  val datetype2 = parsedate.select(col("parseddate2"), to_date(col("parseddate2"), "yyyy-MM-dd HH:mm"))
+  datetype2.show(10)
+  println(datetype2.printSchema())*/
+
+
+  //val datetype3 = parsedate.select(col("parseddate2"), )
   //datetype2.show(10)
   //println(datetype2.printSchema())
 
-  //val formatDate = csvfile.select(col("date"),from_unixtime(col("date"),"MM-dd hh:mm").as("newdate"))
-  //formatDate.show(20)
+  
   //println(formatDate.printSchema())
   
   
