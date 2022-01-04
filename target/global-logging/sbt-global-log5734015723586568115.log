@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(bd96d942-59a6-4614-938b-09689870eaf3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@23ec63af, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /workspace/LNSparkCh4/target/scala-2.12/sbt-1.0/classes ...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 11 s, completed Jan 4, 2022, 5:59:58 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
